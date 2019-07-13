@@ -1,9 +1,10 @@
 @import "utils/variables";
+@import "utils/fonts";
 @import "utils/mixins";
 
 
 html {
-    font-size: $mainFontSize;
+    font-family: $latoRegular;
     height: 100%;
     @media screen and (max-width: $desktopWidth) {
         font-size: 18px;

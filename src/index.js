@@ -1,3 +1,3 @@
 import './js/common.js';
-import './css/normalize.css';
-import './scss/main.scss';
+import './assets/css/normalize.css';
+import './assets/scss/main.scss';
