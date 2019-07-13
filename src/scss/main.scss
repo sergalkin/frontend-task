@@ -1,0 +1,14 @@
+@import "utils/variables";
+@import "utils/mixins";
+
+
+html {
+    font-size: $mainFontSize;
+    height: 100%;
+    @media screen and (max-width: $desktopWidth) {
+        font-size: 18px;
+    }
+    @media screen and (max-width: $iPadWidth) {
+        
+    }
+}
