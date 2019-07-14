@@ -1,13 +1,13 @@
 // Font
 $gothamProLight: 'GothamPro-Light', Helvetica, Arial, sans-serif;
-$gothamPro: 'GothamPro-Light', Helvetica, Arial, sans-serif;
+$gothamPro: 'GothamPro', Helvetica, Arial, sans-serif;
 $latoRegular: 'Lato-Regular', Helvetica, Arial, sans-serif;
 $latoSemibold: 'Lato-Semibold', Helvetica, Arial, sans-serif;
 $latoMedium: 'Lato-Medium', Helvetica, Arial, sans-serif;
 
 // Size
-$mainFontSize: 18px;
-
+$headerFontSize: 47.757px;
+$baseLineHeight: 1.2;
 
 $desktopWidth: 1280px;
 $iPadWidth: 1024px;
@@ -15,3 +15,12 @@ $smdDesktopWidth: 980px;
 $tableWidth: 768px;
 $phoneWidth: 480px;
 $smPhoneWidth: 320px;
+
+
+//Colors
+$baseWhite: #fff;
+$headerText: #0d319c;
+
+$circleBorder: #f7651f;
+$circleShadow: #f78b1f;
+$circleFill: rgba(247,139,31, .4);

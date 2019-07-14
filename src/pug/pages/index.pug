@@ -4,6 +4,28 @@ block variables
     - var title = 'Frontend Task';
     - var pageClass = 'index-page';
 
-block content
-    section
-        h1 Test pug
+//- block content
+//-     section.iceberg
+//-         img.iceberg__background(src='/assets/img/more.png', alt='Верхушка айсберга')
+//-         h1.iceberg__header Всегда ли цели терапии СД2 на поверхности?
+//-         +circles('head','Цель по HbA1c')
+//-         +circles('left','Гипогликемия')
+//-         +circles('right','СС риски')
+//-         +circles('bottom','Осложнения СД')
+//-     include ../includes/rightNav
+//-     include ../includes/bottomNav
+
+//- block root
+//-     section.iceberg-root
+//-         img.iceberg-root__background(src='/assets/img/root.png', alt='Основание айсберга')
+//-         h1.iceberg-root__header Основа терапии - патогенез СД2
+//-         - for (var x = 1; x <= 4; x++)
+//-             img(src='/assets/img/ice'+x+'.png', class="iceberg-root__ice"+x, alt='Изображение льдышки'+x)
+//-         include ../includes/rightNav
+//-         include ../includes/bottomNav
+
+block underworld
+    section.iceberg-underworld
+        img.iceberg-underworld__background(src='/assets/img/underworld.png', alt='Изображение глубин')
+        h1.iceberg-underworld__header Звенья патогенеза СД2
+        include ../includes/rightNav

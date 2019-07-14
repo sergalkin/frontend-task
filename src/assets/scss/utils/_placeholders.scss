@@ -1,0 +1,33 @@
+@import "variables";
+
+%circle {
+    border-radius: 50%;
+    position: absolute;
+    border: 2px solid $circleBorder;
+    &:before, &:after {
+        position: absolute;
+        content: '';
+        height: 100%;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+        border-radius: 50%;
+        box-shadow: 0 0 5px $circleShadow;
+        background: $circleFill;
+        animation: glow-grow 2s ease-out infinite;
+    }
+    &:after {
+        animation-delay: 1s;
+    }
+}
+
+%icebergText {
+    font-family: $latoRegular;
+    font-size: 17.455px;
+    color: $headerText;
+    letter-spacing: 0.01em;
+    line-height: 1.2;
+    position: relative;
+    width: 100%;
+    font-weight: bold;
+}
