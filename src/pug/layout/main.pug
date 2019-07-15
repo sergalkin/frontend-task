@@ -10,6 +10,8 @@ html(lang='ru')
         link(rel='shortcut icon', href='./favicon.ico', type='image/x-icon')
         title #{title}
     body(class=pageClass)
-        //- block content
-        //- block root
+        block content
+        block root
         block underworld
+        include ../includes/rightNav
+        include ../includes/bottomNav
