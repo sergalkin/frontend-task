@@ -18,14 +18,14 @@ block root
         img.iceberg-root__background(src='assets/img/root.png', alt='Основание айсберга')
         h1.iceberg-root__header Основа терапии - патогенез СД2
         - for (var x = 1; x <= 4; x++)
-            img(src='/assets/img/ice'+x+'.png', class="iceberg-root__ice"+x, alt='Изображение льдышки'+x)
+            img(src='assets/img/ice'+x+'.png', class="iceberg-root__ice"+x, alt='Изображение льдышки'+x)
 
 block underworld
     section.iceberg-underworld
-        img.iceberg-underworld__background(src='/assets/img/underworld.png', alt='Изображение глубин')
+        img.iceberg-underworld__background(src='assets/img/underworld.png', alt='Изображение глубин')
         h1.iceberg-underworld__header Звенья патогенеза СД2
         - for (var x = 5; x <= 7; x++)
-            img(src=`/assets/img/ice${x}.png`, class=`iceberg-underworld__ice${x}`, alt=`Изображение льдышки${x}`)
+            img(src=`assets/img/ice${x}.png`, class=`iceberg-underworld__ice${x}`, alt=`Изображение льдышки${x}`)
         .iceberg-underworld-content
 
             .iceberg-underworld-content-left
@@ -41,7 +41,7 @@ block underworld
                         img(src=`assets/img/RectangleL${x}.png`, class=`iceberg-underworld-content-left-arrows__arrow${x}`)
                 .iceberg-underworld-circle.circleLight
                     h2.iceberg-underworld-circle__header-left <span>10</span> Желудок
-                    img(src=`/assets/img/stomach.png`, class='iceberg-underworld-circle__img-stomach')
+                    img(src=`assets/img/stomach.png`, class='iceberg-underworld-circle__img-stomach')
 
             .iceberg-underworld-content-middle
                 .iceberg-underworld-circle_big.mt4.circleDark
@@ -77,7 +77,7 @@ block underworld
                     img(src=`assets/img/brain.png`, class='iceberg-underworld-circle__img-brain')
                 .iceberg-underworld-content-right-arrows
                     - for(var x=1; x<=4; x++)
-                        img(src=`/assets/img/RectangleR${x}.png`, class=`iceberg-underworld-content-right-arrows__arrow${x}`)
+                        img(src=`assets/img/RectangleR${x}.png`, class=`iceberg-underworld-content-right-arrows__arrow${x}`)
                     img(src='assets/img/RectangleMB1.png', class="iceberg-underworld-content-right-arrows__arrowUp")
                     img(src='assets/img/RectangleMB2.png', class="iceberg-underworld-content-right-arrows__arrowDown") 
                 .iceberg-underworld-content-right-table.ml-5
